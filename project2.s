@@ -82,6 +82,11 @@ uppercase:
 bgt $t0, 82, error
 ble $t0, 82, ucase
 
+num:
+addi $a0, $t0, -48
+move $a2, $t3
+j conversion
+
 	
 
 
