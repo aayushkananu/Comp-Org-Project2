@@ -22,3 +22,9 @@ li $t3, 1
 storing:
 lb $t0, ($t1)
 addi $t1, $t1, 1
+beq $t0, 10, ender					
+beq $t0, 0, ender					
+beq $t0, 32, storing					
+beq $t0, 9, storing
+
+
