@@ -27,4 +27,5 @@ beq $t0, 0, ender
 beq $t0, 32, storing					
 beq $t0, 9, storing
 
-
+beq $t8, 1, error					# checking valid character
+li $t8, 1
