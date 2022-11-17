@@ -51,6 +51,10 @@ ender:
 beq $t8, 0, error
 la $s1, string+4		
 
-
+handling:			
+beq $t4, 4, ending
+addi $t4, $t4, 1
+addi $s1, $s1, -1
+lb $t0, ($s1)
 
 
