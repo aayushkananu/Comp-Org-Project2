@@ -7,7 +7,9 @@ string: .space 5
 .text
 
 main:
-li $v0, 8						
-la $a0, input						
-li $a1, 1001					
+li $v0, 8						# loading call code to read the string
+la $a0, input						# loading the address					
+li $a1, 1001						
 syscall
+
+
