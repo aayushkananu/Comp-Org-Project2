@@ -103,4 +103,9 @@ add $s6, $s6, $v0
 mul $t3, $t3, 28
 j handling
 
+subprogram:
+mul $v0, $a0, $a2
+jr $ra
+
+
 
