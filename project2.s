@@ -120,3 +120,12 @@ li $v0,1
 add $a0, $zero, $s6 
 syscall
 j exit
+
+tabandspace:				
+beq $t6, 1, error		# recognizing invalid characters
+j handling
+
+error:
+li $v0, 4
+la $a0, prompt
+syscall
