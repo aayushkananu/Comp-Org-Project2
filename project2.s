@@ -87,6 +87,14 @@ addi $a0, $t0, -48
 move $a2, $t3
 j conversion
 
-	
+ucase:
+addi $a0, $t0, -55
+move $a2, $t3
+j conversion
 
+lcase:
+addi $a0, $t0, -87
+move $a2, $t3
+j conversion
+	
 
