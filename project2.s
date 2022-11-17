@@ -12,4 +12,9 @@ la $a0, input						# loading the address
 li $a1, 1001						
 syscall
 
+la $t1, input						
 
+li $s6, 0						
+li $t4, 0						# storing loop counter for four charcters in $s1 register
+li $t8, 0
+li $t3, 1
