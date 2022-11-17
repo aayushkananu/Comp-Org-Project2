@@ -18,3 +18,7 @@ li $s6, 0
 li $t4, 0						# storing loop counter for four charcters in $s1 register
 li $t8, 0
 li $t3, 1
+
+storing:
+lb $t0, ($t1)
+addi $t1, $t1, 1
