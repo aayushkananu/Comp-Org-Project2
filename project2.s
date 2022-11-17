@@ -107,5 +107,8 @@ subprogram:
 mul $v0, $a0, $a2
 jr $ra
 
-
+ending:
+li $v0, 1				
+add $a0,$zero,$t5
+syscall
 
