@@ -47,4 +47,10 @@ sb $t0, 3($s1)
 addi $t1, $t1, 3					#  three characters stored so incremented by 3
 j storing
 
+ender:	
+beq $t8, 0, error
+la $s1, string+4		
+
+
+
 
