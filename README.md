@@ -5,7 +5,7 @@
 
 # Hi, I'm am project 2! 👋
 
-To run, install QtSpim and load project2.s file in it. Configure and run.
+To run, install QtSpim and load project2.s file in it. Assemble and run.
 
 
 ## Feedback
