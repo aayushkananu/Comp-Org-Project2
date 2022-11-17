@@ -62,6 +62,8 @@ beq $t0, 32, tabandspace
 beq $t0, 9, tabandspace			
 beq $t0, 0, handling
 
+
+
 	
 
 
