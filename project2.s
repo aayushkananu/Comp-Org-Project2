@@ -62,7 +62,21 @@ beq $t0, 32, tabandspace
 beq $t0, 9, tabandspace			
 beq $t0, 0, handling
 
+li $t6, 1		
 
+checker:					#to check if the character is valid or not	
+addi $t5,$t5,1
+bge $t0, 97, lowercase
+bge $t0, 65, uppercase
+bge $t0, 48, number
+
+number:
+bgt $t0, 57, error
+ble $t0, 57, num
+
+lowercase:
+bgt $t0, 114, error
+ble $t0, 114, lcase
 
 	
 
