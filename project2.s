@@ -78,6 +78,10 @@ lowercase:
 bgt $t0, 114, error
 ble $t0, 114, lcase
 
+uppercase:
+bgt $t0, 82, error
+ble $t0, 82, ucase
+
 	
 
 
